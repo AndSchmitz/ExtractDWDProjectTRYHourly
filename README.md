@@ -1,5 +1,5 @@
 # ExtractDWDProjectTRYHourly
-This script extract data at point locations from gridded hourly DWD "Project TRY" meteorological dataset.
+This script extracts data at point locations from gridded hourly DWD "Project TRY" meteorological dataset.
  - [HTTPS link to data](https://opendata.dwd.de/climate_environment/CDC/grids_germany/hourly/Project_TRY/)
  - FTP link to data: ftp://opendata.dwd.de/climate_environment/CDC/grids_germany/hourly/Project_TRY/
  - [Dataset infopage](https://opendata.dwd.de/climate_environment/CDC/help/landing_pages/doi_landingpage_TRY_Basis_v001.html)
