@@ -112,6 +112,7 @@ UnzipFile <- function(SourceFilePath, TargetFilePath) {
 
 
 #Identify grid cells for desired coords---------------------------
+print("Identifying DWD data grid cells matching point locations specified in TargetLocations.csv...")
 #Load the first NetCDF file and for each desired output location
 #in PointCoords identify the corresponding grid cell where to extract
 #data. This mapping is then used for all input files.
@@ -186,7 +187,7 @@ file.remove(CurrentFile_NC)
 
 #Extract data, loop over input files------
 for ( iCurrentFile in 1:length(InputFiles) ) {
-  print(paste("Working on file",iCurrentFile, "of",length(InputFiles)))
+  print(paste("Extracting data from file",iCurrentFile, "of",length(InputFiles),"..."))
   
   #_Unzip------
   #Unzip current compressed nc file
