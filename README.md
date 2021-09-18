@@ -15,6 +15,7 @@ This script extracts data at point locations from gridded hourly DWD "Project TR
  - Download DWD Project TRY hourly data files (link see above). Store these files (.gz or .bz2 files) in the "Input" folder. Subfolders in the "Input" folder are also allowed, e.g. one subfolder per meteorological variable.
  - Run the "ExtractDWDProjectTRYHourly.R" script. Note that execution takes a while - start with a small number of input files (<5) first. Make sure you have at least 2 GB free space on hard disk (required for extraction of compressed .gz or .bz2 files).
  - Results will be stored in a subfolder named "Output" in the working directory.
+ - Adjust "TargetLocations.csv" to the point locations you are interested in.
 
 ## Validation
 
