@@ -3,18 +3,6 @@
 #This script only extracts data. It does not change variable names, units of values
 #or date-time formats (date-time is treated as a string in this script).
 #It does, however, round values to save memory (precision can be changed below).
-#
-#For importing the resulting data in later processing steps, the TimeStamp column of the output
-#can be imported with correct timezone settings like this:
-# Output <- Output %>%
-#   mutate(
-#     TimeStamp = as.POSIXct(
-#       x = paste0(TimeStamp,"0000"),
-#       tz = "UTC+1",
-#       format = "%Y%m%d%H%M%S"
-#     )
-#as time is assumed to be provided in UTC+1=GMT+1 by DWD
-#(no indication of daylight saving time usage found in data).
 
     
 #init-----
