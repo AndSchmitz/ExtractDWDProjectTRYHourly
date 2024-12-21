@@ -28,3 +28,7 @@ The script has been valided by comparing output against values extracted with th
  - File: TT_199502.nc.bz2 Coordinate: 50.9532, 14.8891 Timestamp: 1995-02-01 22:00:00 Variable: temperature Value: 5.4
 
 (data as of 2021-06-20). Please report any bugs / unexpected behaviour.
+
+
+## Notes
+ - Date and time are in UTC, as indicated by "longname" of NetCDF variable "datum" in the .nc files.
